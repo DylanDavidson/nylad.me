@@ -178,19 +178,19 @@ function animate() {
 }
 
 $("body").keydown(function(e) {
-  if(e.keyCode == 87) { // W
+  if(e.keyCode == 87 || e.keyCode == 38) { // W
     if(v_velocity <= 20)
       v_velocity += 7;
   }
-  if(e.keyCode == 83) { // S
+  if(e.keyCode == 83 || e.keyCode == 40) { // S
     if(v_velocity >= -20)
       v_velocity -= 7;
   }
-  if(e.keyCode == 65) { // A
+  if(e.keyCode == 65 || e.keyCode == 37) { // A or left
     if(h_velocity >= -20)
       h_velocity -= 7;
   }
-  if(e.keyCode == 68) { // D
+  if(e.keyCode == 68 || e.keyCode == 39) { // D
     if(h_velocity <= 20)
       h_velocity += 7;
   }
