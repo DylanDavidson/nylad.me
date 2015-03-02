@@ -32,11 +32,11 @@ function init() {
     resetValues();
     scene = new THREE.Scene();
     fog = new THREE.Fog("#000000", 100, 3500);
-    addText("Welcome to Bollox!");
+    addText("Welcome to ThreeBlox!");
     for(i = 0; i < NUM_MESHES; i++) {
       geometry = new THREE.BoxGeometry(100, 100, 100);
       material = new THREE.MeshBasicMaterial({
-          color: 0x000000,
+          color: 0xFFFFFF,
           wireframe: false
       });
       mesh = new THREE.Mesh(geometry, material);
@@ -114,7 +114,7 @@ function resetMeshes() {
     addText("Tough Luck!");
   resetValues();
   for(i = 0; i < meshes.length; i++) {
-    meshes[i].material.color.setHex(0x000000);
+    meshes[i].material.color.setHex(0xFFFFFF);
     moveMesh(meshes[i], true);
   }
 }
@@ -167,8 +167,8 @@ function animate() {
         camera.position.z = 1000;
         resetMeshes();
       }
-      if(count % 4 === 0)
-        meshes[i].material.color.setHex(meshes[i].material.color.getHex() + modifier);
+      //if(count % 4 === 0)
+        //meshes[i].material.color.setHex(meshes[i].material.color.getHex() + modifier);
     }
     if(move) {
       camera.position.z -= z_speed;

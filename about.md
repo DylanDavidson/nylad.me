@@ -50,6 +50,10 @@ For more information about me, check out my GitHub or shoot me an e-mail:
 
 ## Projects
 
+### [ThreeBlox]({{ base.url }}/threeblox/)
+
+* Built a block dodging web game using [**three.js**](https://github.com/mrdoob/three.js/)
+
 ### [Super Bitcoin Trader 64](http://superbt.herokuapp.com)
 
 * Worked on an idle web game in pure **Javascript** (no libraries) for Software Engineering class as a group.
