@@ -10,6 +10,23 @@ For more information about me, check out my GitHub or shoot me an e-mail:
 
 -----
 
+## Projects
+
+### [ThreeBlox]({{ base.url }}/threeblox/)
+
+* Built a block dodging web game using [**three.js**](https://github.com/mrdoob/three.js/)
+
+### [Super Bitcoin Trader 64](http://superbt.herokuapp.com)
+
+* Worked on an idle web game in pure **Javascript** (no libraries) for Software Engineering class as a group.
+* Wrote the primary game logic and implemented a real-time graph using **HTML5 Canvas**.
+
+### [Eight Queens Solver](http://eightqueens.herokuapp.com)
+
+* Wrote an interactive solver for the classic Eight Queens problem using pure **Javascript** and **HTML5 Canvas**. 
+
+-----
+
 ## Education
 
 ### University of Central Florida
@@ -45,20 +62,3 @@ For more information about me, check out my GitHub or shoot me an e-mail:
 * **Javascript/Coffeescript/JQuery** (2 Years)
 * **HTML5 and CSS** (2 Years)
 * **PostgreSQL** (1 Year)
-
------
-
-## Projects
-
-### [ThreeBlox]({{ base.url }}/threeblox/)
-
-* Built a block dodging web game using [**three.js**](https://github.com/mrdoob/three.js/)
-
-### [Super Bitcoin Trader 64](http://superbt.herokuapp.com)
-
-* Worked on an idle web game in pure **Javascript** (no libraries) for Software Engineering class as a group.
-* Wrote the primary game logic and implemented a real-time graph using **HTML5 Canvas**.
-
-### [Eight Queens Solver](http://eightqueens.herokuapp.com)
-
-* Wrote an interactive solver for the classic Eight Queens problem using pure **Javascript** and **HTML5 Canvas**. 
