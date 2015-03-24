@@ -52,7 +52,7 @@ Then, we use this regex to find our search terms, and wrap them with a span with
 // Maps "Test" in DOM to "<span class='highlight'>Test</span>"
 matching_items.each(function(_, item) {
 	var j_item = $(item);
-  j_item.html(j_item.html().replace(
+    j_item.html(j_item.html().replace(
 			regex, "<span class='highlight'>$&</span>"
 	));
 });
