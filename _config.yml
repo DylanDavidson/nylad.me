@@ -1,10 +1,5 @@
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-
-highlighter: rouge
+markdown: redcarpet
+highlighter: pygments
 
 # Permalinks
 permalink:        pretty

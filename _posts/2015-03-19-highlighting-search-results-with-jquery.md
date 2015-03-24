@@ -2,6 +2,8 @@
 layout: post
 title: Highlighting Search Results with jQuery
 ---
+Example on Page:
+![Screenshot of  final result on page]({{ base.url }}/assets/jquery-highlight-example.png)
 [Skip to the code](#jquery_code)
 
 ## Make your search user-friendly
@@ -35,17 +37,17 @@ var all_items = $('li');
 var matching_items = all_items.children(query_string);
 ```
 
-Almost there! We have all of our matching search results, we just need to do the highlighting! Unfortunately, this is the hardest part. We can use a regex `replace` to wrap the search terms with a span that will highlight them on the page. 
+Almost there! We have all of our matching search results, we just need to do the highlighting! Unfortunately, this is the hardest part. We can use a regex `replace` to wrap the search terms with a span that will highlight them on the page.
 
-The regex will be generated from `words`, the array we had above that held the words the user searched for. We will use the `g` (global), and `i` (case-insensitve) flags so that the regex will replace all matches in the string, regardless of case. 
+The regex will be generated from `words`, the array we had above that held the words the user searched for. We will use the `g` (global), and `i` (case-insensitve) flags so that the regex will replace all matches in the string, regardless of case.
 
 ``` javascript
 // Maps ["Test", "Search"] to /Test|Search/gi
 var regex = RegExp(words.join('|'), 'gi');
 ```
 
-Then, we use this regex to find our search terms, and wrap them with a span with the class `highlight`, which we will define to give them a background color. The `$&` will be replaced with the matched text. 
-	
+Then, we use this regex to find our search terms, and wrap them with a span with the class `highlight`, which we will define to give them a background color. The `$&` will be replaced with the matched text.
+
 ``` javascript
 // Maps "Test" in DOM to "<span class='highlight'>Test</span>"
 matching_items.each(function(_, item) {
@@ -60,7 +62,7 @@ For the `highlight` class:
 
 ``` css
 .highlight {
-	background-color: #ffffe5;
+	background-color: #2ecc71;
 }
 ```
 
@@ -83,8 +85,8 @@ var regex = RegExp(words.join('|'), 'gi');
 // Maps "Test" in DOM to "<span class='highlight'>Test</span>"
 matching_items.each(function(_, item) {
 	var j_item = $(item);
-  j_item.html(j_item.html().replace(
-			regex, "<span class='highlight'>$&</span>"
+    j_item.html(j_item.html().replace(
+		regex, "<span class='highlight'>$&</span>"
 	));
 });
 ```
