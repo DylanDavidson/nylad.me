@@ -249,7 +249,7 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-img { 
-  max-width: 38rem;
+img {
+  max-width: 100%;
   margin-right: 2rem;
 }
