@@ -30,10 +30,15 @@ order to increase efficiency by reducing object allocations.
 * Implemented a simple collision detection algorithm to check when the player collides with a block,
 and to prevent two blocks from overlapping.
 
-### [Pong]({{ base.url }}/pong/)
+### [Pong]({{ base.url }}/pong/) [[Source Code](https://github.com/DylanDavidson/pong)]
 
 * Recreated the classic game Pong as a 3D browser game using [**Three.js**](https://github.com/mrdoob/three.js/).
 * Implemented three simple AI difficulties and particle explosions when a player scores.
+
+### [Angry Spheres]({{ base.url }}/angryspheres/) [[Source Code](https://github.com/DylanDavidson/angryspheres)]
+
+* Recreated the popular game Angry Birds as a 3D browser game using [**Three.js**](https://github.com/mrdoob/three.js/).
+* Implemented [Physijs](http://chandlerprall.github.io/Physijs/) to simulate physics.
 
 ### [Super Bitcoin Trader 64](http://superbt.herokuapp.com)
 
