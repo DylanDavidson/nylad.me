@@ -1,3 +1,6 @@
 [submodule "pong"]
 	path = pong
 	url = https://github.com/DylanDavidson/pong.git
+[submodule "angryspheres"]
+	path = angryspheres
+	url = https://github.com/DylanDavidson/angryspheres.git
