@@ -30,6 +30,11 @@ order to increase efficiency by reducing object allocations.
 * Implemented a simple collision detection algorithm to check when the player collides with a block,
 and to prevent two blocks from overlapping.
 
+### [Pacman]({{ base.url }}/pacman/) [[Source Code](https://github.com/DylanDavidson/pong)]
+
+* Recreated Pacman in 3D using [**Three.js**](https://github.com/mrdoob/three.js/).
+* Implemented a 3rd person tracking camera, and a smaller minimap
+
 ### [Pong]({{ base.url }}/pong/) [[Source Code](https://github.com/DylanDavidson/pong)]
 
 * Recreated the classic game Pong as a 3D browser game using [**Three.js**](https://github.com/mrdoob/three.js/).

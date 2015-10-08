@@ -4,3 +4,6 @@
 [submodule "angryspheres"]
 	path = angryspheres
 	url = https://github.com/DylanDavidson/angryspheres.git
+[submodule "pacman"]
+	path = pacman
+  url = https://github.com/DylanDavidson/pacman.git
