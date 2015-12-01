@@ -7,3 +7,6 @@
 [submodule "pacman"]
 	path = pacman
   url = https://github.com/DylanDavidson/pacman.git
+[submodule "tothespaceship"]
+	path = tothespaceship
+	url = https://github.com/DylanDavidson/tothespaceship.git
