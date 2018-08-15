@@ -28,7 +28,7 @@ and to prevent two blocks from overlapping.
 * Recreated the popular game Angry Birds as a 3D browser game using [**Three.js**](https://github.com/mrdoob/three.js/).
 * Implemented [Physijs](http://chandlerprall.github.io/Physijs/) to simulate physics.
 
-### Super Bitcoin Trader 64
+### [Super Bitcoin Trader 64]({{ base.url }}/SBT)
 
 * Wrote the main game logic and real-time graphs (**HTML5 Canvas**) for an idle web game in
 **JavaScript**.

@@ -10,3 +10,6 @@
 [submodule "tothespaceship"]
 	path = tothespaceship
 	url = https://github.com/DylanDavidson/tothespaceship.git
+[submodule "SBT"]
+	path = SBT
+	url = https://github.com/DylanDavidson/SBT
