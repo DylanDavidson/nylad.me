@@ -85,7 +85,9 @@ function moveMesh(mesh, intital) {
 
 function addText(text) {
   scene.remove(text_mesh);
-  var shape = new THREE.TextGeometry(text, {font: 'helvetiker'});
+  var shape = new THREE.TextGeometry(text, {
+    font: 'helvetiker',
+  });
   var wrapper = new THREE.MeshNormalMaterial({color: 0x00ff00});
   var words = new THREE.Mesh(shape, wrapper);
   words.position = camera.position;
